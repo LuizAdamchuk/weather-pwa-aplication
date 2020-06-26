@@ -39,8 +39,8 @@ body,
   border-radius: 24px;
   border: 1px solid transparent;
   margin-bottom: 5%;
-  background: rgba(250, 250, 250, 0.9);
-  color: #1e2432;
+  background: rgba(0, 0, 0, 0.9);
+  color: rgb(194, 194, 194);
   font-size: 16px;
   animation: AppearedAnimation 3s;
 }
@@ -52,7 +52,7 @@ body,
   border: 2px solid #ff8c00;
 }
 .search::placeholder {
-  color: #1e2432;
+  color: rgb(194, 194, 194);
   font-weight: 700;
 }
 
@@ -63,7 +63,7 @@ body,
   flex-direction: column;
   padding: 40px 8%;
   border-radius: 24px;
-  background: rgba(250, 250, 250, 0.85);
+  background: rgba(0, 0, 0, 0.85);
   animation: AppearedAnimation 2s;
 }
 
@@ -78,17 +78,19 @@ p {
   font-size: 5rem;
   font-weight: bold;
   margin-top: 10px;
-  color: #1e2432;
+  color: rgb(194, 194, 194);
   text-align: center;
   animation: AppearedAnimation 2s;
 }
 
 .city sup {
   font-size: 0.5em;
+  color: rgb(194, 194, 194);
 }
 
 .city-name {
   font-size: 2em;
+  color: #ff8c00;
 }
 
 .city-name sup {
@@ -110,6 +112,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: rgb(194, 194, 194);
 }
 
 @media only screen and (max-width: 600px) {
