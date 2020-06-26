@@ -24,7 +24,7 @@ const App = () => {
       <input
         type="text"
         className="search"
-        placeholder="Digite aqui..."
+        placeholder="Cidade (Ex.: Londrina)"
         value={query}
         onChange={e => {
           setQuery(e.target.value);
@@ -44,8 +44,6 @@ const App = () => {
           </div>
           <div className="info">
             <img
-              src=""
-              alt=""
               className="city-icon"
               src={`https://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
               alt={weather.weather[0].description}
